@@ -98,6 +98,9 @@ def analitically(n, a, b, nodes):
 
 
 if __name__ == '__main__':
+    x = [2, 3, 4, 5, 6]
+    for i in x:
+        print(4*(i**4) - 3*(i ** 2) + 12)
     a, b = -1, 1
     h = [(b - a) / n[i] for i in range(len(n))]
     points = np.linspace(a, b, num=10)
