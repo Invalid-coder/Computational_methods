@@ -104,6 +104,7 @@ def print_table(nodes):
         prev = current
         print(current)
 
+
 def analitically(n, a, b, nodes):
     x = symbols('x')
     f = parse_expr("log2(3 + x)", local_dict={"log2": lambda x: sympy.log(x, 2)})
