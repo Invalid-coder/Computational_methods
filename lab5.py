@@ -82,9 +82,12 @@ def orthogonal_vectors(A):
 
 if __name__ == '__main__':
     n = 5
-    A = get_matrix(n, n + 1)#[[2, 3, 4, 20], [3, 2, 1, 10], [4, 1, 2, 12]] homework matrix
+    #A = get_matrix(n, n + 1)#[[2, 3, 4, 20], [3, 2, 1, 10], [4, 1, 2, 12]] homework matrix
     #A1 = [[2, 3, -4, 1], [-3, -1, 5, 1], [4, 3, -6, 1]] #classwork matrix
-    for x in A:
-        print(x)
+    #A = [[1, 1, -22, 38], [0, 2, -10, -50], [0, -3, 4, 20]]
+    #A1 = [[1, -3, 20, -140], [0, 5, -30, 120], [0, 1, -20, 150]]
+    A = [[1, -1, 12, -17, -362], [0, 0, 19, 8, -473], [0, -1, -6, -95, -240], [0, -4, 3, 51, -118]]
+    #for x in A:
+        #print(x)
     print(gaussian_method(A))
-    print(orthogonal_vectors(A))
+    #print(orthogonal_vectors(A))
